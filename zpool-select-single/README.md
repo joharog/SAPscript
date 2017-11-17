@@ -19,4 +19,4 @@ READ TABLE INTAB INDEX 1.
     VARIABLE = INTAB-VALUE.
     ENDIF.
 ```
-*Must use this statement in program to receive a variable with clause USING,every INDEX n have to be in orden in SAPscript window.*
+*Must use this statement in program to receive a variable with clause USING, every INDEX n have to be in orden in SAPscript.*
