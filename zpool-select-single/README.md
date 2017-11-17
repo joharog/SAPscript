@@ -12,3 +12,11 @@ Add four (4) new fields to show using BSEG table with associated doc number BELN
 
 - USING `&TABLE-VARIABLE&` \
 *Pass a variable from SAPscript to program*
+
+``` 
+READ TABLE INTAB INDEX 1.
+  IF SY-SUBRC = 0.
+    VARIABLE = INTAB-VALUE.
+    ENDIF.
+```
+*Must use this statement in program to receive a variable with clause USING,every INDEX n have to be in orden in SAPscript window.*
